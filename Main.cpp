@@ -61,7 +61,11 @@ void drawline(Uint32* pixel,int x1, int y1, int x2, int y2,int r, int g, int b, 
 	{
 		int tempval = x2;
 			x2 = x1;
-			x1 = tempval;
+			x1 = tempval; 
+                               tempval = y2;
+		                   y2  = y1;
+		
+
 	}
 		
 	
